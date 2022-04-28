@@ -1,1 +1,0 @@
-# hardcpp.cpp
