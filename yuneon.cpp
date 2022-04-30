@@ -11,7 +11,7 @@ void SetDate(int year,int month,int date){
 void AddDay(int inc){
   if(month_==2){
     date_+=inc;
-    if(year_%4==0){
+    if(year_%4==0&&year_!=100){
       if(date_>29){
         date_-=29;
          month_+=1;
